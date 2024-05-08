@@ -7,18 +7,120 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>First web</title>
-        <meta name="description" content="esta web es la primera de muchas">
+        <title>Firts Web</title>
+        <meta name="description" content="Esta web es la primera de muchas">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+
+        <!--Estilos CSS-->
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+        <link rel="stylesheet" href="./css/styles.css">
+        <link rel="stylesheet" href="./css/font-awesome.min.css">
+
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css'>
+        <link rel='stylesheet' href='https://static.fontawesome.com/css/fontawesome-app.css'>
+        <link rel='stylesheet' href='https://pro.fontawesome.com/releases/v5.2.0/css/all.css'>
+        <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:400,700'>
+
+        <!--Funcionalidades-->
         <script type="text/javascript" src="./js/bootstrap.min.js"></script>
-    </head>
-    <body> 
-        <h1>soy santiago </h1>
-        <!--[]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+        <script type="text/javascript" src="./js/jquery.min.js"></script>
+        <script type="text/javascript" src="./js/popper.min.js"></script>
+        <script type="text/javascript" src="./js/fuction.js"></script>
+    </head> 
+    <body oncontextmenu="return false" class="snippet-body">
+        <div class="options">
+            <div class="option active" style="--optionBackground:url(https://www.sanjosevegas.edu.co/wp-content/uploads/2023/05/IMG_2989-1024x683.jpg);">
+                <div class="shadow"></div>
+                <div class="label">
+                    <div class="icon">
+                        <i class="fa-thin fa-ghost"></i>
+                    </div>
+                    <div class="info">
+                        <div class="main">foto 1</div>
+                        <div class="sub">Descripcion</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="option" style="--optionBackground:url(https://www.sanjosevegas.edu.co/wp-content/uploads/2023/06/estudiantes-egresados-prom-2022.jpg);">
+                <div class="shadow"></div>
+                <div class="label">
+                    <div class="icon">
+                        <i class="fa-thin fa-ghost"></i>
+                    </div>
+                    <div class="info">
+                        <div class="main">foto 1</div>
+                        <div class="sub">Descripcion</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="option" style="--optionBackground:url(https://www.sanjosevegas.edu.co/wp-content/uploads/2023/06/estudiantes-egresados-prom-2022.jpg);">
+                <div class="shadow"></div>
+                <div class="label">
+                    <div class="icon">
+                        <i class="fa-thin fa-ghost"></i>
+                    </div>
+                    <div class="info">
+                        <div class="main">foto 1</div>
+                        <div class="sub">Descripcion</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="option" style="--optionBackground:url(https://www.sanjosevegas.edu.co/wp-content/uploads/2023/06/estudiantes-egresados-prom-2022.jpg);">
+                <div class="shadow"></div>
+                <div class="label">
+                    <div class="icon">
+                        <i class="fa-thin fa-ghost"></i>
+                    </div>
+                    <div class="info">
+                        <div class="main">foto 1</div>
+                        <div class="sub">Descripcion</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="option" style="--optionBackground:url(https://www.sanjosevegas.edu.co/wp-content/uploads/2023/06/estudiantes-egresados-prom-2022.jpg);">
+                <div class="shadow"></div>
+                <div class="label">
+                    <div class="icon">
+                        <i class="fa-thin fa-ghost"></i>
+                    </div>
+                    <div class="info">
+                        <div class="main">foto 1</div>
+                        <div class="sub">Descripcion</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="option" style="--optionBackground:url(https://www.sanjosevegas.edu.co/wp-content/uploads/2023/06/estudiantes-egresados-prom-2022.jpg);">
+                <div class="shadow"></div>
+                <div class="label">
+                    <div class="icon">
+                        <i class="fa-thin fa-ghost"></i>
+                    </div>
+                    <div class="info">
+                        <div class="main">foto 1</div>
+                        <div class="sub">Descripcion</div>
+                    </div>
+                </div>
+            </div>
+        </div>
         
-        <script src="" async defer></script>
+        
+        
+
+        <!-- [if lt IE 7]
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        [endif]-->
+        
+        <script type='text/javascript'>
+            $(".option").click(function () {
+               $(".option").removeClass("active");
+               $(this).addClass("active");
+        });</script>
     </body>
 </html>
+        
+           
